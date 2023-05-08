@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <style>
+
+            .body {
+                   background-color: rgb(190, 251, 241);
+            }
+
+            .middle {
+                display: flex;
+                flex-direction: row;
+                font-size: 30;
+            }
+            .side1{flex:1;border-style: solid;}
+            .content {flex:3;border-style: solid;
+                        align-items: center;
+                        justify-content: center;
+                    }
+            .side2{flex:1;border-style: solid;}
+
+            ul{
+                list-style:none;
+                border-style:solid;
+                display:inline-block;
+                padding-left:0px;
+                margin-top:0px;
+            }
+            li a{
+                text-decoration:none;
+                width: 200px;
+                display:block;
+                text-align: center;
+                padding-top:20px;
+                padding-bottom:20px;
+                background-color: black;
+                color: white;
+            }
+        li a.current {background-color: rgb(233, 12, 104);}
+
+        li a:hover{
+            background-color:rgb(233, 12, 104);
+        }
+
+        li{float:left;}
+        .image {position: absolute;
+        }
+        .video {position:absolute;
+                top:500px;}
+        
+            li{float:left;}
+        .logo {position:absolute;right: 5px;}
+        </style>
+    </head>
+    <body>
+        <body class="body">
+        <body class="middle">
+        <img class="logo" src="android-chrome-192x192.png" width="50px">
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a class="current" href="about.html">About</a></li>
+        </ul>
+
+        <div class="header"></div>
+        <div class="middle">
+            <div class="side1">I am the current vice president of content creation on the Elon Hillel executive board. I was an overnight camp counselor and lifeguard for 2 summers at Camp Tel Noar. During the pandemic, I worked as a hostess at La Familia Restaurant. I assistant coached gymnastics for 5 years, which is something I stay involved in and hope to officially return to in the future. I have experience in TV Production thanks to high school classes, an internship my senior year, and the opportunity to produce and direct my graduating class’s lip dub video. I am currently continuing my education in the field at Elon University in Elon, North Carolina.</div>
+            <div class="content" style="padding-bottom:1000px">
+                <img class="image"src="IMG_9054.JPG" width="500">
+                <video controls class="video" width="300">
+                    <source src="export_1667962028319.MOV"></video>
+            </div>
+            <div class="side2">I grew up in Stoughton, Massachusetts, just 40 minutes south of Boston. There is nothing I love more than spending time with my friends and family. I am a proud member of Alamance Club Gymnastics, a student-run competitive gymnastics team comprised of Elon Students. I have a passion for cooking, music, concert photography, travel, and video-making.</div>
+        </div>
+        <div class="footer"></div>
+
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <style>
+
+            .body {
+                   background-color: rgb(190, 251, 241);
+                  }
+            .middle {
+                display: flex;
+                flex-direction: row;
+            }
+            .side1{flex:1;border-style: solid;}
+            .content {flex:3;border-style: solid;}
+
+            ul{
+                list-style:none;
+                border-style:solid;
+                display:inline-block;
+                padding-left:0px;
+                margin-top:0px;
+            }
+            li a{
+                text-decoration:none;
+                width: 200px;
+                display:block;
+                text-align: center;
+                padding-top:20px;
+                padding-bottom:20px;
+                background-color: black;
+                color: white;
+                
+            }
+            
+        li a.current {background-color: rgb(233, 12, 104);}
+
+        li a:hover{
+            background-color:rgb(233, 12, 104);
+        }
+
+        li{float:left;}
+        .logo {position:absolute;right: 5px;}
+
+        </style>
+    </head>
+    <body class="body">
+        <img class="logo" src="android-chrome-192x192.png" width="50px">
+        
+        <ul>
+            <li><a class="current" href="homepage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+
+        </ul>
+        <div class="header"></div>
+        <div class="middle">
+            <div class="side1"> <img src="web res.JPEG" height="500"></div>
+            <div class="content">Hi, I'm Kaley Krivelow. I am from Stoughton, Massachusetts. I am a sophomore at Elon University as a Cinema and Television Arts major with a minor in entrepreneurship. In 2021, I graduated from West Bridgewater Middle-Senior High School. I am active in Hillel as the VP of Content Creation and a member of Alamance Club Gymnastics. During my free time, I like to cook, hang out with my friends, and listen to music.</div>
+        </div>
+        <div class="footer">Contact:</div>
+        <div class="footer">kkrivelow@elon.edu</div>
+        <div class="footer">Instagram: @kaleywiththekamera</div>
+        <div class="footer">TikTok: @kaleythekale</div>
+    </body>
+</html>

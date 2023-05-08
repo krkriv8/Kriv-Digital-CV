@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/Krivelow-CV/favicon_io"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Krivelow-CV"
+	}
+}
